@@ -8,7 +8,7 @@ namespace animal.Animals
 {
     public class CreateAnimals
     {
-        public Animal CreateAnimal(TypeAnimals animalType)
+        public static Animal CreateAnimal(TypeAnimals animalType)
         {
             Animal animal = null;
             switch (animalType)

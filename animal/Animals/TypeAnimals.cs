@@ -8,7 +8,7 @@ namespace animal.Animals
 {
     public enum TypeAnimals
     {
-        Cat,
+        Cat=1,
         Dog,
         Bird
     }
